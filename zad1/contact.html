@@ -1,0 +1,54 @@
+<!DOCTYPE HTML>
+<html>
+	<head>
+		<title>World News-Contact</title>
+		<meta charset="UTF-8">
+		<meta name="author" content="Filip Radojković">
+		<meta name="description" content="News site about the news">
+		<meta name="keywords" content="news, daily news, global news, new news">
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<link rel="stylesheet" href="style.css">
+	</head>
+	<body>
+		<header>
+			<div class="contact-image"></div>
+			<div class="topnav">
+				<a class="world-news" href="news.html">WORLD NEWS</a>
+				<a class="button" href="about.html">About</a>
+				<a class="button active" href="contact.html">Contact</a>
+				<div class="dropdown">
+					<button class="dropbutton">Category <i class="arrow down"></i></button>
+					<div class="dropdown-content">
+						<a href="politics.html">Politics</a>
+						<a href="technology.html">Technology</a>
+						<a href="sports.html">Sports</a>
+					</div>
+				</div>
+				<a class="button" href="news.html">News</a>
+			</div>
+		</header>
+		<main>
+			<br>
+			<h4>Contact Us:</h4>
+			<hr class="article-line">
+			<br>
+			<div class="form-container">
+				<form class="contact-form" action="redirect.html" method="get">
+					<input name="name" placeholder="Name" type="text" align="center" required autofocus>
+					<p></p>
+					<input name="email" placeholder="Email Address" type="email" align="center" required>
+					<p></p>
+					<input name="subject" placeholder="Subject" type="text" align="center" required autofocus>
+					<p></p>
+					<textarea name="message" placeholder="Message" required></textarea>
+					<p></p>
+					<button class="send-button" name="send" type="submit">Send</button>
+					<p><br></p>
+				</form>
+			</div>
+		</main>
+		<footer>
+			<p class="footer">Filip Radojković<a href="https://github.com/fradojkovic/projekt"><img src="gitLogo.png" title="Github" alt="Github" width="16px" height="16px"></a><br><br><a href="mailto:fradojkovic@gmail.com">fradojkovic@gmail.com</a><br><br>Zagreb, 2019.</p>
+		</footer>
+	</body>
+</html>
